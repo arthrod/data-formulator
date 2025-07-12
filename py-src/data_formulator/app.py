@@ -231,7 +231,7 @@ def hello():
             "y": {"field": "b", "type": "quantitative"}
         }
     }
-    return json.dumps(spec)
+    return (json.dumps(spec), {'Content-Type': 'application/json'})
 
 
 @app.route('/hello-stream')
