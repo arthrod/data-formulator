@@ -12,3 +12,5 @@ azure-keyvault-secrets
 python-dotenv
 vega_datasets
 -e . #also need to install data formulator itself
+azure-core>=1.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
