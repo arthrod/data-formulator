@@ -12,3 +12,4 @@ azure-keyvault-secrets
 python-dotenv
 vega_datasets
 -e . #also need to install data formulator itself
+nbconvert>=7.17.0 # not directly required, pinned by Snyk to avoid a vulnerability
